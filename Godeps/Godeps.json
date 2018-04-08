@@ -19,11 +19,11 @@
 		},
 		{
 			"ImportPath": "golang.org/x/sys/unix",
-			"Rev": "9ccfe848b9db8435a24c424abbc07a921adf1df5"
+			"Rev": "3b87a42e500a6dc65dae1a55d0b641295971163e"
 		},
 		{
 			"ImportPath": "golang.org/x/sys/windows",
-			"Rev": "9ccfe848b9db8435a24c424abbc07a921adf1df5"
+			"Rev": "3b87a42e500a6dc65dae1a55d0b641295971163e"
 		},
 		{
 			"ImportPath": "gopkg.in/urfave/cli.v1",
