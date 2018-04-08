@@ -1,0 +1,6 @@
+applicationName: wxapp
+version: 0.0.1
+debug: true
+
+server:
+  port: 8080
