@@ -4,6 +4,5 @@ node {
          def wxappImage = docker.build("harbor.codework.tech:8090/demo/wxapp:latest")
          wxappImage.push()
     }
-
     sh 'echo "push success"'
 }
