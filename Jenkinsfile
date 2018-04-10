@@ -1,6 +1,6 @@
 node {
     checkout scm;
-    docker.withRegistry('https://harbor.codework.tech:8090', 'jenkins-harbor') {
+    docker.withRegistry('http://harbor.codework.tech:8090', 'jenkins-harbor') {
         def wxappImage = docker.build("demo/wxapp");
         wxappImage.push("latest");
     }
